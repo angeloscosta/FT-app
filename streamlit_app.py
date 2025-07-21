@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
 
 st.title("Biblioteca de Fenômenos de Transporte")
 st.write(
