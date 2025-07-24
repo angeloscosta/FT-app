@@ -13,7 +13,7 @@ def cabecalho(title, description):
     st.title(title)
     st.write(description)
 
-def corpo(subtitulo, teoria_fn, exercicio_fn, resolver_fn):
+def seccao(subtitulo, teoria_fn, exercicio_fn, resolver_fn):
     st.subheader(subtitulo)
     tabs = st.tabs(["Teoria", "Exercício", "Resolver"])
     with tabs[0]:
