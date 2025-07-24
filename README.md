@@ -1,19 +1,23 @@
-# 🎈 Blank app template
+# Portfolio de Fenômenos de Transporte
 
-A simple Streamlit app template for you to modify!
+Bem-vindo ao meu Portfolio de Fenômenos de Transporte
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Portfólio da unidade curricular (UC) Fenômenos de Transporte do curso Bacharelado Interdisciplinar em Ciência e Tecnologia da UNIFESP campus São José dos Campos. Ementa disponível em [![Ementário](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://unifesp.br/campus/sjc/catalogo-de-disciplinas/ementario-ucs/).
 
-### How to run it on your own machine
+Este portfólio busca resumir os conceitos aprendidos em aula e aplica-los para resolver problemas simples, auxiliando futuros alunos a conferir seus resultados.
 
-1. Install the requirements
+Feito por Ângelo Soares Costa, aluno desta UC em 2025-1, usando o conteúdo da apostila da Profa. Dra. Marina Oliveira de Souza Dias.
+
+### Como executar em seu computador
+
+1. Instalar os requerimentos
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Executar o aplicativo
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run ft_app.py
    ```

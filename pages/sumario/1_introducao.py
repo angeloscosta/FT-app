@@ -9,4 +9,4 @@ st.markdown("""
 """)
 
 # Subseção (pode linkar para outra página)
-st.page_link("pages/1.1.1_Propriedades_em_um_ponto.py", label="▶️ Detalhes sobre Propriedades")
+# st.page_link("pages/1.1.1_Propriedades_em_um_ponto.py", label="▶️ Detalhes sobre Propriedades")
