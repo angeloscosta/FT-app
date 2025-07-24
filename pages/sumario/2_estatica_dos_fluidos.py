@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+# Local
+import metodos_matematicos as resolver
+
 # Título do capítulo
 st.title("2. Estática dos Fluidos")
 
@@ -29,12 +32,12 @@ def coletar_dados(tab):
     return rho, g, h
 
 rho, g, h = coletar_dados(tab3)
-def calcular_pressao(rho, g, h):
-    """Calcula a pressão hidrostática."""
-    pressao = rho * g * h
-    return pressao
+# def calcular_pressao(rho, g, h):
+#     """Calcula a pressão hidrostática."""
+#     pressao = rho * g * h
+#     return pressao
  
-pressao = calcular_pressao(rho, g, h)
+pressao = resolver.calcular_pressao(rho, g, h)
 
 # Gráfico com Streamlit line_chart
 h_range = np.linspace(0, 10, 100)
